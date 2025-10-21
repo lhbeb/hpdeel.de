@@ -34,6 +34,12 @@ const Footer = () => {
                   support@happydeel.com
                 </a>
               </div>
+              <div className="flex items-center">
+                <Mail className="h-5 w-5 text-[#0046be] mr-2" />
+                <a href="mailto:kontakt@happydeel.de" className="hover:text-[#0046be] transition-colors duration-300">
+                  kontakt@happydeel.de
+                </a>
+              </div>
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 text-[#0046be] mr-2 mt-1" />
                 <span>Musterstraße 123, 80331 München, Deutschland</span>
@@ -41,6 +47,10 @@ const Footer = () => {
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 text-[#0046be] mr-2 mt-1" />
                 <span>Lotichiusstraße 25, 36381 Schlüchtern, Deutschland</span>
+              </div>
+              <div className="flex items-start">
+                <MapPin className="h-5 w-5 text-[#0046be] mr-2 mt-1" />
+                <span>315 Lancaster Avenue, Haverford, PA 19041, USA</span>
               </div>
               <div className="pt-2">
                 <a 

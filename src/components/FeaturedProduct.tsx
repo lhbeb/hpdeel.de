@@ -69,13 +69,13 @@ const FeaturedProduct: React.FC<FeaturedProductProps> = ({ product }) => {
               href={`/products/${slug}`}
               className="flex-1 bg-[#0046be] hover:bg-[#003494] text-white py-3 px-6 rounded-lg font-medium transition-colors duration-300 text-center"
             >
-              Add to Cart
+              In den Warenkorb
             </Link>
             <Link 
               href={`/products/${slug}`}
               className="flex-1 flex items-center justify-center border border-[#0046be] text-[#0046be] hover:bg-blue-50 py-3 px-6 rounded-lg font-medium transition-colors duration-300"
             >
-              View Details
+              Details ansehen
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </div>

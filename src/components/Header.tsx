@@ -65,7 +65,7 @@ const Header = () => {
       {/* Promotional bar - not sticky */}
       <div className="bg-[#ffef02] text-[#313a4b] py-2">
         <div className="container mx-auto px-4 text-center font-medium">
-          Kostenloser Versand für Kunden aus Deutschland & Europa
+          Versand in ganz Deutschland und Österreich
         </div>
       </div>
       

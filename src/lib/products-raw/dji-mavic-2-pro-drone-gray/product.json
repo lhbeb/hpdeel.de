@@ -26,15 +26,15 @@
   "reviews": [
     {
       "id": "review-1",
-      "author": "David Thompson",
-      "avatar": "https://i.ibb.co/ZzZm6PT2/avatars-000652081152-ddbg70-t500x500.jpg",
+      "author": "Markus Bauer",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face&auto=format&q=80",
       "rating": 5,
-      "date": "2025-04-18",
-      "title": "Die beste Drohne, die ich je geflogen habe",
-      "content": "Die DJI Mavic 2 Pro ist absolut unglaublich. Die Kameraqualität ist atemberaubend und die Flugsteuerung ist super sanft. Die Hindernisvermeidung funktioniert einwandfrei und die Akkulaufzeit ist beeindruckend. Jeder Cent war es wert für die Luftbildfotografie!",
+      "date": "2025-06-15",
+      "title": "Fantastische Drohne mit atemberaubender Kamera",
+      "content": "Ich bin absolut begeistert von dieser Drohne! Die Hasselblad-Kamera liefert wirklich professionelle Qualität. Ich habe sie für meine Immobilienfotos genutzt und die Ergebnisse sind einfach unglaublich. Die Flugstabilität ist hervorragend, selbst bei leichtem Wind. Die intelligente Rückschrittfunktion hat mich vor einigen Hindernissen bewahrt. Die Akkulaufzeit ist gut, aber ich nehme immer Ersatzbatterien mit. Alles in allem ein fantastischer Kauf für Profis und Fortgeschrittene.",
       "helpful": 18,
       "verified": true,
-      "location": "Seattle, WA",
+      "location": "Frankfurt, Deutschland",
       "purchaseDate": "Januar 2024",
       "images": [
         "https://i.ibb.co/vCq3Gd7h/s-l1600-18.webp",
@@ -43,7 +43,7 @@
     },
     {
       "id": "review-2",
-      "author": "Lisa Park",
+      "author": "Lisa Wagner",
       "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face&auto=format&q=80",
       "rating": 4,
       "date": "2025-05-05",
@@ -51,7 +51,7 @@
       "content": "Exzellente Bildqualität und Flugleistung wie von DJI erwartet. Es gibt einige leichte Gebrauchsspuren am Gehäuse, aber nichts Schlimmes. Sie funktioniert perfekt und die Transporttasche ist ein schönes Extra. Großartiges Preis-Leistungs-Verhältnis für eine Premium-Drohne.",
       "helpful": 9,
       "verified": true,
-      "location": "Chicago, IL",
+      "location": "Stuttgart, Deutschland",
       "purchaseDate": "Januar 2024",
       "images": [
         "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=400&fit=crop&auto=format&q=80"

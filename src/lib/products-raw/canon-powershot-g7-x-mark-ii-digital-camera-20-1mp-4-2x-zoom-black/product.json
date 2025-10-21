@@ -8,37 +8,7 @@
   "reviews": [
     {
       "id": "review-1",
-      "author": "Emily S.",
-      "avatar": "https://i.ibb.co/4w8W5qG8/icon-7797704-640.png",
-      "rating": 5,
-      "date": "2025-05-01",
-      "title": "Ehrlich gesagt, viel besser als erwartet",
-      "content": "Ich hatte ehrlich gesagt ziemliche Angst, eine gebrauchte Kamera online zu kaufen. Als broke Studentin brauchte ich etwas für meinen Fotokurs, wollte aber kein Vermögen ausgeben. Das Teil kam buchstäblich zwei Tage vor meiner ersten Aufgabe an (ich hatte echt geschwitzt, lol). Es gibt einen kleinen Kratzer am Auslöser, aber egal, es funktioniert einwandfrei. Ich hab's mit auf einen Auftritt der Band meines Freundes in einen super dunklen Keller genommen und die Bilder waren tatsächlich viel besser als mit meinem Handy. Die Batterie hat die ganze Nacht durchgehalten. Für den Preis bin ich echt überrascht. Würde es jederzeit wieder tun.",
-      "helpful": 12,
-      "verified": true,
-      "location": "Boston, MA",
-      "purchaseDate": "April 2025",
-      "images": [
-        "https://i.ibb.co/fY6cBbQj/755d8fa2-0cff-4cc7-bb4e-44dd0bd34196.jpg"
-      ]
-    },
-    {
-      "id": "review-2",
-      "author": "Mike T.",
-      "avatar": "https://i.ibb.co/8gfgy6ZF/f1b0fa6f5600c401894fcd7e6e4834b5.jpg",
-      "rating": 5,
-      "date": "2025-04-18",
-      "title": "Warum neu kaufen? Das ist genauso gut",
-      "content": "Hab's direkt vor einer Reise nach Joshua Tree gekauft, weil meine alte Kamera einfach gestorben ist (rip). War mir nicht sicher wegen gebrauchter Sachen, aber ehrlich gesagt, sieht es fast wie neu aus. Es gibt eine winzige Delle an der Ecke, aber man muss schon genau hinschauen. Hab ein paar Sonnenaufgangsbilder gemacht und die Farben waren fantastisch. Die Verpackung war etwas ramponiert, als es ankam, aber die Kamera war in Ordnung. Hab richtig Geld gespart und trotzdem coole Aufnahmen von meinem Hund beim Klettern auf Felsen gemacht.",
-      "helpful": 9,
-      "verified": true,
-      "location": "San Diego, CA",
-      "purchaseDate": "März 2025",
-      "images": []
-    },
-    {
-      "id": "review-3",
-      "author": "Sara L.",
+      "author": "Sara Weber",
       "avatar": "https://i.ibb.co/4w8W5qG8/icon-7797704-640.png",
       "rating": 4,
       "date": "2025-03-22",
@@ -46,29 +16,29 @@
       "content": "Hab gerade angefangen, mit Fotografie rumzuspielen (hauptsächlich zum Spaß, nichts Ernstes) und hab's mir genommen, nachdem ein Freund gesagt hat, es wäre gut. Es war ordentlich verpackt und startklar. Hab's mit auf ein Foodtruck-Festival genommen und ein paar coole Taco-Bilder gemacht - die Farben sahen gut aus, selbst bei komischer Beleuchtung. Einziges Problem ist, dass der Touchscreen ziemlich schnell verschmiert, aber ich wische ihn einfach ab. Kein großes Ding. Bin froh, dass ich nicht ein Vermögen für etwas Neues ausgegeben hab.",
       "helpful": 7,
       "verified": true,
-      "location": "Austin, TX",
+      "location": "Düsseldorf, Deutschland",
       "purchaseDate": "März 2025",
       "images": [
         "https://i.ibb.co/JFrp7ZqQ/72573ccbf809410d9e5c8d0519daf6f9.jpg"
       ]
     },
     {
-      "id": "review-4",
-      "author": "David R.",
+      "id": "review-2",
+      "author": "David Zimmermann",
       "avatar": "https://i.ibb.co/4w8W5qG8/icon-7797704-640.png",
       "rating": 5,
       "date": "2025-03-10",
       "title": "Überraschend gut für Straßenaufnahmen",
-      "content": "Der Versand war schnell, ich hab geblinzelt und es war schon vor meiner Tür. Ich hab schon öfter gebrauchte Sachen gekauft und manchmal ist es ein Glücksspiel, aber diese Kamera fühlte sich von Anfang an solide an. Keine Bedienungsanleitung in der Box (kein großes Ding, hab einfach gegoogelt), aber alles andere sah unberührt aus. Hab's für ein paar Straßenaufnahmen in Chicago mitgenommen und es hat mit dem komischen März-Wetter problemlos klar gemacht. Der Riemen war etwas abgenutzt, also hab ich meinen alten genommen. Würde hier wieder kaufen.",
+      "content": "Der Versand war schnell, ich hab geblinzelt und es war schon vor meiner Tür. Ich hab schon öfter gebrauchte Sachen gekauft und manchmal ist es ein Glücksspiel, aber diese Kamera fühlte sich von Anfang an solide an. Keine Bedienungsanleitung in der Box (kein großes Ding, hab einfach gegoogelt), aber alles andere sah unberührt aus. Hab's für ein paar Straßenaufnahmen in München mitgenommen und es hat mit dem komischen März-Wetter problemlos klar gemacht. Der Riemen war etwas abgenutzt, also hab ich meinen alten genommen. Würde hier wieder kaufen.",
       "helpful": 10,
       "verified": true,
-      "location": "Chicago, IL",
+      "location": "München, Deutschland",
       "purchaseDate": "Februar 2025",
       "images": []
     },
     {
-      "id": "review-5",
-      "author": "Anna P.",
+      "id": "review-3",
+      "author": "Anna Richter",
       "avatar": "https://i.ibb.co/4w8W5qG8/icon-7797704-640.png",
       "rating": 5,
       "date": "2025-02-28",
@@ -76,21 +46,21 @@
       "content": "Ich hätte es fast nicht gekauft, ehrlich gesagt. War schon mal bei gebrauchter Ausrüstung abgezockt worden. Aber ich bin froh, dass ich es doch getan habe. Die G7X war wie wahnsinnig gut verpackt und sah kaum benutzt aus. Als erstes hab ich ein Bild von meinem Hund gemacht, um zu sehen, ob es funktioniert - super scharf. Einziges Problem ist, dass die Batterie etwas schneller leer wird als gehofft, aber ich hab mir eine Ersatzbatterie besorgt und es ist okay. Für das, was ich bezahlt habe, bin ich beeindruckt.",
       "helpful": 8,
       "verified": true,
-      "location": "Seattle, WA",
+      "location": "Hamburg, Deutschland",
       "purchaseDate": "Februar 2025",
       "images": []
     },
     {
-      "id": "review-6",
-      "author": "Chris M.",
+      "id": "review-4",
+      "author": "Chris Koch",
       "avatar": "https://i.ibb.co/4w8W5qG8/icon-7797704-640.png",
       "rating": 4,
       "date": "2025-02-15",
       "title": "Großartig für Vlogs, aber nicht perfekt",
-      "content": "Hab's für meinen YouTube-Kanal gekauft, weil meine alte Kamera einfach zu sperrig war. Diese ist viel leichter, was super praktisch ist, wenn man durch NYC läuft. Der Flip-Screen ist super praktisch, aber ich wünschte, er wäre etwas heller in der Sonne. Außerdem hat mich das Wi-Fi Setup etwas Zeit gekostet, bis ich es raus hatte (nicht besonders technikaffin, ehrlich gesagt). Trotzdem hab ich einen ganzen Tag in Central Park gefilmt und das Bildmaterial sah scharf aus - hab sogar einen Eichhörnchen erwischt, wie es mir mein Pretzel geklaut hat, lol. Würde es empfehlen, wenn man etwas sucht, was einfach zu tragen ist.",
+      "content": "Hab's für meinen YouTube-Kanal gekauft, weil meine alte Kamera einfach zu sperrig war. Diese ist viel leichter, was super praktisch ist, wenn man durch Berlin läuft. Der Flip-Screen ist super praktisch, aber ich wünschte, er wäre etwas heller in der Sonne. Außerdem hat mich das Wi-Fi Setup etwas Zeit gekostet, bis ich es raus hatte (nicht besonders technikaffin, ehrlich gesagt). Trotzdem hab ich einen ganzen Tag am Bodensee gefilmt und das Bildmaterial sah scharf aus - hab sogar einen Eichhörnchen erwischt, wie es mir mein Pretzel geklaut hat, lol. Würde es empfehlen, wenn man etwas sucht, was einfach zu tragen ist.",
       "helpful": 6,
       "verified": true,
-      "location": "New York, NY",
+      "location": "Berlin, Deutschland",
       "purchaseDate": "Januar 2025",
       "images": [
         "https://i.ibb.co/zT2xY3Qc/Screen-Shot-2025-07-24-at-21-37-19.jpg"

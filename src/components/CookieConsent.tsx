@@ -38,14 +38,14 @@ export default function CookieConsent() {
           {/* Content */}
           <div className="flex-1 text-center sm:text-left">
             <p className="text-sm sm:text-base leading-relaxed">
-              By continuing to use this site, you accept our{' '}
+              Durch die weitere Nutzung dieser Website akzeptieren Sie unsere{' '}
               <a 
                 href="https://www.happydeel.com/cookies" 
                 className="underline hover:text-blue-200 font-medium transition-colors" target="_blank" rel="noopener noreferrer"
               >
-                Cookie Policy
+                Cookie-Richtlinie
               </a>
-              . We use cookies to enhance your browsing experience and analyze site traffic.
+              . Wir verwenden Cookies, um Ihr Surferlebnis zu verbessern und den Website-Traffic zu analysieren.
             </p>
           </div>
 
@@ -56,7 +56,7 @@ export default function CookieConsent() {
               className="px-4 py-2 text-sm font-medium text-blue-100 hover:text-white transition-colors flex items-center gap-2"
             >
               <X className="w-4 h-4" />
-              Decline
+              Ablehnen
             </button>
             
             <button
@@ -64,11 +64,11 @@ export default function CookieConsent() {
               className="px-6 py-3 bg-white text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 min-w-[120px] justify-center"
             >
               <Check className="w-4 h-4" />
-              Accept
+              Akzeptieren
             </button>
           </div>
         </div>
       </div>
     </div>
   );
-} 
+}

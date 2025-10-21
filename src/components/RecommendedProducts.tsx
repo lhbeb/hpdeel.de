@@ -121,7 +121,7 @@ const RecommendedProducts: React.FC<RecommendedProductsProps> = ({ currentProduc
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mt-2">
                   <div className="flex items-center text-sm text-gray-500">
                     <Eye className="h-4 w-4 mr-1" />
-                    <span>View Details</span>
+                    <span>Details ansehen</span>
                   </div>
                   <div className="h-8 w-8 bg-blue-600 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <ShoppingCart className="h-4 w-4 text-white" />

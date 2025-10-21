@@ -3,57 +3,57 @@ import React from 'react';
 const TermsPage = () => (
   <div className="min-h-screen flex flex-col bg-gray-50 py-12">
     <div className="container mx-auto px-4">
-      <h1 className="text-3xl font-bold text-gray-900 mb-6">Terms of Service</h1>
+      <h1 className="text-3xl font-bold text-gray-900 mb-6">Allgemeine Geschäftsbedingungen</h1>
       <div className="prose max-w-none text-gray-600">
         <p className="text-lg mb-6">
-          Welcome to HappyDeel. By accessing or using our website, you agree to be bound by these Terms of Service.
+          Willkommen bei HappyDeel. Durch den Zugriff auf unsere Website oder die Nutzung unserer Dienste erklären Sie sich mit diesen Allgemeinen Geschäftsbedingungen einverstanden.
         </p>
-        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Account Terms</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Kontobedingungen</h2>
         <ul className="list-disc pl-6 mt-4 mb-6">
-          <li>You must be 18 years or older to use this service</li>
-          <li>You must provide accurate and complete information when creating an account</li>
-          <li>You are responsible for maintaining the security of your account</li>
-          <li>You must notify us immediately of any unauthorized access</li>
+          <li>Sie müssen mindestens 18 Jahre alt sein, um diesen Service nutzen zu können</li>
+          <li>Sie müssen beim Erstellen eines Kontos genaue und vollständige Informationen angeben</li>
+          <li>Sie sind für die Sicherheit Ihres Kontos verantwortlich</li>
+          <li>Sie müssen uns unverzüglich über jeden unbefugten Zugriff informieren</li>
         </ul>
-        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Shipping Policy</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Versandbedingungen</h2>
         <p>
-          For all orders within the USA:
+          Für alle Bestellungen innerhalb Deutschlands und Österreichs:
         </p>
         <ul className="list-disc pl-6 mt-4 mb-6">
-          <li>Standard shipping takes 3-5 business days</li>
-          <li>Free shipping on all orders currently</li>
-          <li>Orders are processed within 1 business day</li>
-          <li>Tracking information is provided via email</li>
+          <li>Die Standardlieferung dauert 3-5 Werktage</li>
+          <li>Versandkostenfrei bei allen Bestellungen</li>
+          <li>Bestellungen werden innerhalb von 1 Werktag bearbeitet</li>
+          <li>Tracking-Informationen werden per E-Mail bereitgestellt</li>
         </ul>
-        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Product Terms</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Produktbedingungen</h2>
         <ul className="list-disc pl-6 mt-4 mb-6">
-          <li>All product descriptions are accurate to the best of our knowledge</li>
-          <li>We reserve the right to modify or discontinue products</li>
-          <li>Prices are subject to change without notice</li>
-          <li>We do not guarantee product availability</li>
+          <li>Alle Produktbeschreibungen sind nach bestem Wissen genau</li>
+          <li>Wir behalten uns das Recht vor, Produkte zu ändern oder einzustellen</li>
+          <li>Preise können ohne vorherige Ankündigung geändert werden</li>
+          <li>Wir garantieren nicht für die Verfügbarkeit von Produkten</li>
         </ul>
-        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Payment Terms</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Zahlungsbedingungen</h2>
         <p>
-          We accept the following payment methods:
+          Wir akzeptieren folgende Zahlungsmethoden:
         </p>
         <ul className="list-disc pl-6 mt-4 mb-6">
-          <li>Credit/Debit Cards (Visa, Mastercard, American Express)</li>
+          <li>Kredit-/Debitkarten (Visa, Mastercard, American Express)</li>
           <li>PayPal</li>
           <li>Shop Pay</li>
           <li>Apple Pay</li>
         </ul>
-        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Limitation of Liability</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Haftungsbeschränkung</h2>
         <p>
-          HappyDeel shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services.
+          HappyDeel haftet nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, die aus der Nutzung unserer Dienste entstehen.
         </p>
-        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Contact Information</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Kontaktinformationen</h2>
         <p>
-          For questions about these Terms of Service, please contact us:
+          Bei Fragen zu diesen Allgemeinen Geschäftsbedingungen kontaktieren Sie uns bitte:
         </p>
         <ul className="list-none mt-4">
-          <li>Phone: +17176484487</li>
-          <li>Email: support@happydeel.com</li>
-          <li>Hours: Monday - Friday, 9:00 AM - 5:00 PM EST</li>
+          <li>Telefon: +49 89 123456789</li>
+          <li>E-Mail: kontakt@happydeel.de</li>
+          <li>Öffnungszeiten: Montag - Freitag, 9:00 - 17:00 Uhr</li>
         </ul>
       </div>
     </div>
