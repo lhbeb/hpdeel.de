@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-            Der intelligente Weg, um hochwertige Technik, Kameras und Fahrräder zu günstigen Preisen zu kaufen.
+            Der smarte Weg zu Technik, Kameras & Fahrrädern zum Toppreis.
             </h1>
             <p className="mt-4 text-lg md:text-xl text-blue-100 max-w-lg mx-auto md:mx-0">
             Wir nehmen das Risiko beim Kauf gebrauchter Geräte durch Experteninspektion und zuverlässigen Service bei jeder Bestellung.
