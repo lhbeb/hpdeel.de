@@ -130,7 +130,7 @@ canonical: "https://happydeel.com/products/canon-camera-g7x-mark-iii"
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer service",
-    "email": "support@happydeel.com"
+    "email": "kontakt@happydeel.de"
   }
 }
 ```

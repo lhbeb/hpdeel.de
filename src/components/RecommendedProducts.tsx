@@ -34,7 +34,7 @@ const RecommendedProducts: React.FC<RecommendedProductsProps> = ({ currentProduc
         
         setProducts(filteredProducts);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load recommended products');
+        setError(err instanceof Error ? err.message : 'Empfohlene Produkte konnten nicht geladen werden');
       } finally {
         setLoading(false);
       }
@@ -83,9 +83,9 @@ const RecommendedProducts: React.FC<RecommendedProductsProps> = ({ currentProduc
     <section className="mt-16 border-t pt-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Recommended Products</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">Empfohlene Produkte</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Discover more amazing products you might love
+            Entdecken Sie weitere tolle Produkte, die Ihnen gefallen könnten
           </p>
         </div>
         
@@ -117,7 +117,7 @@ const RecommendedProducts: React.FC<RecommendedProductsProps> = ({ currentProduc
                   </span>
                 </p>
                 
-                <div className="text-xl font-bold text-gray-900">${new Intl.NumberFormat('en-US').format(product.price)}</div>
+                <div className="text-xl font-bold text-gray-900">{new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(product.price * 0.93)}</div>
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mt-2">
                   <div className="flex items-center text-sm text-gray-500">
                     <Eye className="h-4 w-4 mr-1" />

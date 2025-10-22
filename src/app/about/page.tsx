@@ -65,7 +65,7 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <div className="font-medium text-gray-900">E-Mail:</div>
-                  <div className="text-gray-600">support@happydeel.com</div>
+                  <div className="text-gray-600">kontakt@happydeel.de</div>
                 </div>
                 <div>
                   <div className="font-medium text-gray-900">Geschäftszeiten:</div>

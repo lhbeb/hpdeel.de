@@ -38,7 +38,7 @@ export default function ProductPageClient({ product: initialProduct }: ProductPa
     { question: "Werden Ihre gebrauchten Produkte getestet?", answer: "Absolut. Alle gebrauchten Elektronikartikel durchlaufen eine mehrstufige Inspektion und sind voll funktionsfähig, sofern nicht anders angegeben." },
     { question: "Kann ich den Produktfotos vertrauen?", answer: "Ja — was Sie sehen, ist das, was Sie erhalten. Unsere Fotos zeigen das tatsächliche Produkt (oder eine sehr ähnliche Darstellung für neue Artikel). Wir verwenden keine Stockbilder für gebrauchte Artikel." },
     { question: "Ist Abholung vor Ort möglich?", answer: "Derzeit sind wir ein reiner Online-Shop, aber wir arbeiten daran, Abholoptionen in ausgewählten Städten einzuführen." },
-    { question: "Wie kann ich den Kundenservice kontaktieren?", answer: "Sie können uns jederzeit unter support@happydeel.com erreichen oder uns unter +49 89 123456789 anrufen. Wir sind 7 Tage die Woche erreichbar." }
+    { question: "Wie kann ich den Kundenservice kontaktieren?", answer: "Sie können uns jederzeit unter kontakt@happydeel.de erreichen oder uns unter +49 89 123456789 anrufen. Wir sind 7 Tage die Woche erreichbar." }
   ], []);
 
   // Generate urgency data on client side only

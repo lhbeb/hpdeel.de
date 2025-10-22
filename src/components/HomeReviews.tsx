@@ -89,13 +89,13 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
                   <Star key={i} className="h-8 w-8 text-gray-300" />
                 ))}
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">No Reviews Yet</h3>
-              <p className="text-gray-600 mb-6">Be the first to share your experience with our products!</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Noch keine Bewertungen</h3>
+              <p className="text-gray-600 mb-6">Seien Sie der Erste, der seine Erfahrung mit unseren Produkten teilt!</p>
               <button
                 onClick={() => setShowReviewForm(true)}
                 className="bg-[#0046be] hover:bg-[#003494] text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200"
               >
-                Write a Review
+                Bewertung schreiben
               </button>
             </div>
           </div>
@@ -114,7 +114,7 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
               <div className="flex flex-col md:flex-row md:items-start justify-between gap-6">
                 {/* Rating Summary */}
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900 mb-2">Customer Reviews</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-2">Kundenbewertungen</h2>
                   <div className="flex items-center gap-4">
                     <div className="text-4xl font-bold text-gray-900">{averageRating.toFixed(1)}</div>
                     <div>
@@ -126,7 +126,7 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
                           />
                         ))}
                       </div>
-                      <p className="text-sm text-gray-600 mt-1">Based on {totalReviews} reviews</p>
+                      <p className="text-sm text-gray-600 mt-1">Basierend auf {totalReviews} Bewertungen</p>
                     </div>
                   </div>
                 </div>
@@ -138,7 +138,7 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
                     className="bg-[#0046be] hover:bg-[#003494] text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center gap-2"
                   >
                     <Send className="h-4 w-4" />
-                    Write a Review
+                    Bewertung schreiben
                   </button>
                 </div>
               </div>
@@ -164,7 +164,7 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
                             {review.verified && (
                               <span className="flex items-center text-[#0046be] text-sm">
                                 <CheckCircle2 className="h-4 w-4 mr-1" />
-                                Verified Purchase
+                                Verifizierter Kauf
                               </span>
                             )}
                           </h3>
@@ -197,7 +197,7 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
                         aria-pressed={liked[review.id]}
                         disabled={liked[review.id]}
                       >
-                        <ThumbsUp className="h-4 w-4" /> Helpful ({likes[review.id]})
+                        <ThumbsUp className="h-4 w-4" /> Hilfreich ({likes[review.id]})
                       </button>
                     </div>
                   </div>
@@ -209,7 +209,7 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
             {reviews.length > 5 && (
               <div className="p-6 border-t border-gray-200 text-center">
                 <p className="text-gray-600">
-                  Showing 5 of {totalReviews} reviews
+                  Zeige 5 von {totalReviews} Bewertungen
                 </p>
               </div>
             )}
@@ -229,7 +229,7 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
           >
             <div className="p-6">
               <div className="flex items-center justify-between mb-6">
-                <h3 className="text-xl font-semibold text-gray-900">Write a Review</h3>
+                <h3 className="text-xl font-semibold text-gray-900">Bewertung schreiben</h3>
                 <button
                   onClick={() => setShowReviewForm(false)}
                   className="text-gray-400 hover:text-gray-600 transition-colors duration-200"
@@ -241,7 +241,7 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
               <form onSubmit={handleSubmitReview} className="space-y-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Your Name
+                    Ihr Name
                   </label>
                   <input
                     type="text"
@@ -249,13 +249,13 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0046be] focus:border-transparent"
-                    placeholder="Enter your name"
+                    placeholder="Geben Sie Ihren Namen ein"
                   />
                 </div>
 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Rating
+                    Bewertung
                   </label>
                   <div className="flex gap-1">
                     {[...Array(5)].map((_, i) => (
@@ -273,7 +273,7 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Review Title
+                    Bewertungstitel
                   </label>
                   <input
                     type="text"
@@ -281,13 +281,13 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
                     value={formData.title}
                     onChange={(e) => setFormData({ ...formData, title: e.target.value })}
                     className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0046be] focus:border-transparent"
-                    placeholder="Summarize your experience"
+                    placeholder="Fassen Sie Ihre Erfahrung zusammen"
                   />
                 </div>
 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Review Content
+                    Bewertungsinhalt
                   </label>
                   <textarea
                     required
@@ -295,7 +295,7 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
                     value={formData.content}
                     onChange={(e) => setFormData({ ...formData, content: e.target.value })}
                     className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0046be] focus:border-transparent resize-none"
-                    placeholder="Share your detailed experience..."
+                    placeholder="Teilen Sie Ihre detaillierte Erfahrung..."
                   />
                 </div>
 
@@ -305,13 +305,13 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
                     onClick={() => setShowReviewForm(false)}
                     className="flex-1 px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors duration-200"
                   >
-                    Cancel
+                    Abbrechen
                   </button>
                   <button
                     type="submit"
                     className="flex-1 bg-[#0046be] hover:bg-[#003494] text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200"
                   >
-                    Submit Review
+                    Bewertung absenden
                   </button>
                 </div>
               </form>
@@ -325,7 +325,7 @@ const HomeReviews: React.FC<HomeReviewsProps> = ({
         <div className="fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg z-50">
           <div className="flex items-center gap-2">
             <CheckCircle2 className="h-5 w-5" />
-            <span>Review submitted successfully!</span>
+            <span>Bewertung erfolgreich eingereicht!</span>
           </div>
         </div>
       )}

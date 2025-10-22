@@ -106,7 +106,7 @@ export default function RootLayout({
               "contactPoint": {
                 "@type": "ContactPoint",
                 "contactType": "Kundenservice",
-                "email": "support@happydeel.com"
+                "email": "kontakt@happydeel.de"
               },
               "address": {
                 "@type": "PostalAddress",

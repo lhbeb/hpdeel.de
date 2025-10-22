@@ -12,12 +12,12 @@ const NewsletterSection = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!email.trim()) {
-      setError('Please enter your email address');
+      setError('Bitte geben Sie Ihre E-Mail-Adresse ein');
       return;
     }
 
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      setError('Please enter a valid email address');
+      setError('Bitte geben Sie eine gültige E-Mail-Adresse ein');
       return;
     }
 
@@ -45,7 +45,7 @@ const NewsletterSection = () => {
       // Reset success state after 5 seconds
       setTimeout(() => setIsSuccess(false), 5000);
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Something went wrong. Please try again.');
+      setError(err instanceof Error ? err.message : 'Etwas ist schief gelaufen. Bitte versuchen Sie es erneut.');
     } finally {
       setIsSubmitting(false);
     }
@@ -62,12 +62,12 @@ const NewsletterSection = () => {
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Stay in the Loop
+            Bleiben Sie auf dem Laufenden
           </h2>
           
           <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Subscribe to our newsletter and be the first to know about exclusive deals, 
-            new arrivals, and special offers. Join thousands of happy customers!
+            Abonnieren Sie unseren Newsletter und erfahren Sie als Erster von exklusiven Angeboten, 
+            Neuheiten und Sonderaktionen. Treten Sie Tausenden zufriedener Kunden bei!
           </p>
 
           <form onSubmit={handleSubmit} className="max-w-md mx-auto">
@@ -80,7 +80,7 @@ const NewsletterSection = () => {
                     setEmail(e.target.value);
                     if (error) setError('');
                   }}
-                  placeholder="Enter your email address"
+                  placeholder="Geben Sie Ihre E-Mail-Adresse ein"
                   className="w-full px-4 py-3 rounded-lg border-0 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-[#0046be] transition-all duration-200"
                   disabled={isSubmitting || isSuccess}
                 />
@@ -94,16 +94,16 @@ const NewsletterSection = () => {
                 {isSubmitting ? (
                   <>
                     <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-[#0046be]"></div>
-                    Subscribing...
+                    Wird abonniert...
                   </>
                 ) : isSuccess ? (
                   <>
                     <Check className="h-5 w-5" />
-                    Subscribed!
+                    Abonniert!
                   </>
                 ) : (
                   <>
-                    Subscribe
+                    Abonnieren
                     <ArrowRight className="h-5 w-5" />
                   </>
                 )}
@@ -118,13 +118,13 @@ const NewsletterSection = () => {
             
             {isSuccess && (
               <p className="text-green-200 text-sm mt-3 text-center">
-                Thanks for subscribing! Check your email for confirmation.
+                Vielen Dank für Ihr Abonnement! Bitte prüfen Sie Ihre E-Mails für die Bestätigung.
               </p>
             )}
           </form>
 
           <p className="text-blue-200 text-sm mt-6 opacity-80">
-            We respect your privacy. Unsubscribe at any time.
+            Wir respektieren Ihre Privatsphäre. Sie können sich jederzeit abmelden.
           </p>
         </div>
       </div>
